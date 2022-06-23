@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>People We Met on Vacation by Emily Henry</title>
+    <title>People We Meet on Vacation by Emily Henry</title>
     <link rel="stylesheet" href="stylesheet.css">
-
   </head>
-  <nav>
-    <div class = "header">
-      <div id="title">
-        <a href="https://rsun19.github.io/book-blog/">Robert's Random Reviews</a>
-      </div>
-      <a href="https://rsun19.github.io/book-blog/">Home</a>
-      <a href="./aboutme.html">About Me</a>
-      <a href="./contact.html">Contact</a>
-      <a href = "./tvshows.html">TV Show Reviews</a>
-      <a href = "./books.html">Book Reviews</a>
+</head>
+<nav>
+  <div class = "header">
+    <div id="title">
+      <a class="heading_links" href="https://rsun19.github.io/book-blog/" style="text-decoration:none;">Robert's Random Reviews</a>
     </div>
-  </nav>
+    <a class="heading_links" href="https://rsun19.github.io/book-blog/" style="text-decoration:none;">Home</a>
+    <a class="heading_links" href="./aboutme.html" style="text-decoration:none;">About Me</a>
+    <a class="heading_links" href="./contact.html" style="text-decoration:none;">Contact</a>
+    <a class="heading_links" href = "./tvshows.html" style="text-decoration:none;">TV Show Reviews</a>
+    <a class="heading_links" href = "./books.html" style="text-decoration:none;">Book Reviews</a>
+  </div>
+</nav>
   <body>
-    <h1>People We Met on Vacation by Emily Henry</h1>
-      <p></p>
+    <h1 style="text-align: center;">People We Meet On Vacation by Emily Henry</h1>
+    <img src="pwmov.webp" alt="Picture of People We Meet On Vacation by Emily Henry" class="imgsize">  
+    <h3 style="text-align: center;">Rating: 7/10</h3>
+    <div id="para1">
+      <p class="para">Well, this book was my first pure romance book, and I was surprised about how much I liked it. However, I 
+        think that the book is overrated, and even though it's very good, it doesn't deserve to be #1 on the GoodReads Romance charts. 
+        Like come on!  
+      </p>
+      <p class="para">
+        Summary: Poppy, a travel writer, finally gets in touch with her crush Alex, after they had a falling out 2 years ago. They then decide
+        to travel to California together in the hopes of reconnecting with each other. Throughout their excursion, Poppy flashbacked to her and 
+        Alex's summer vacations prior to this one and recounted the many pleasant experiences that they had with each other. The real question is: will 
+        they rekindle their relationship with each other, and most importantly, will they finally fall in love?
+      </p>
+      <h2 style="text-align: center;">WARNING: CONTAINS SPOILERS!</h2>
+      <button class="spoiler" onclick='spoiler()'>Spoiler</button>
+      <div id="spoilers">
+        <p class="para">Honestly, this wasn't the best book that I've read, and the slow romantic buildup really put me off. It look like 3/4 of the book 
+          for them to finally kiss, and that aggravates me. How can you call this a romance book when there's only romance for less than half the book?! 
+          Unbelievable! Futhermore, the constant flashbacks really disoriented me and I don't think that that many were actually needed. To each their own 
+          though. Other than that, the plot development was natural, and even though I hated the flashbacks, they were always developing in line with the present 
+          storyline, which is always good. One thing that I liked about this book was the song references during the car rides. Emily Henry has great taste 
+          in music, and it always somehow fits the vibes. Piano Man by Billy Joel? Check. Alone by Heart? Check. Plus, don't forget the romantic moment under the 
+          rain. What a nice AP Lit motif. Cute moments there, huh? Nothing to complain about there.</p>
+        <p class="para">I also liked the conflict at the end, and it reminds me of the classic "The Kite Runner" moment where Amir pictures himself running after 
+          Hassan in the rain. Only that Poppy does go after Alex and they finally reach a compromise. It comforts me knowing that there was a happy ending at the 
+          end, and I liked the immense realism here. Relationships (probably, I literally cannot relate) do take time and work, and it shows the give and take moments
+          that people have to give to each other. Overall, it's a pretty good book. Pure romance books are way too focused on love and I think that romance books with 
+          another side plot are better reads. But that's just me, and I bet there's an army of GoodReads readers disagreeing with me right now.</p>
+      </div>   
+    </div>
+    <script>
+      function spoiler() {
+        document.getElementById("spoilers").style.display="block";
+      }
+    </script>
   </body>
 </html>
