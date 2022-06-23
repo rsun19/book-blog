@@ -4,20 +4,55 @@
     <title>Verity by Colleen Hoover</title>
     <link rel="stylesheet" href="stylesheet.css">
   </head>
-  <nav>
-    <div class = "header">
-      <div id="title">
-        <a href="https://rsun19.github.io/book-blog/">Robert's Random Reviews</a>
-      </div>
-      <a href="https://rsun19.github.io/book-blog/">Home</a>
-      <a href="./aboutme.html">About Me</a>
-      <a href="./contact.html">Contact</a>
-      <a href = "./tvshows.html">TV Show Reviews</a>
-      <a href = "./books.html">Book Reviews</a>
+</head>
+<nav>
+  <div class = "header">
+    <div id="title">
+      <a class="heading_links" href="https://rsun19.github.io/book-blog/" style="text-decoration:none;">Robert's Random Reviews</a>
     </div>
-  </nav>
+    <a class="heading_links" href="https://rsun19.github.io/book-blog/" style="text-decoration:none;">Home</a>
+    <a class="heading_links" href="./aboutme.html" style="text-decoration:none;">About Me</a>
+    <a class="heading_links" href="./contact.html" style="text-decoration:none;">Contact</a>
+    <a class="heading_links" href = "./tvshows.html" style="text-decoration:none;">TV Show Reviews</a>
+    <a class="heading_links" href = "./books.html" style="text-decoration:none;">Book Reviews</a>
+  </div>
+</nav>
   <body>
-    <h1>Verity by Colleen Hoover</h1>
-      <p></p>
+    <h1 style="text-align: center;">Verity by Colleen Hoover</h1>
+    <img src="love_hypothesis.jpg" alt="Picture of The Love Hypothesis with NYC as the background" class="imgsize">  
+    <h3 style="text-align: center;">Rating: 9/10</h3>
+    <div id="para1">
+      <p class="para">This book was a joy to read, and the way the author kept me engaged was truly skillful. 
+      </p>
+      <p class="para">
+        Summary: It's about a writer who gets a deal of a lifetime by meeting someone who's the husband of a famous writer.
+        Since the wife is incapacitated, the husband gave the writer a deal to write 3 books to finish the wife's book series 
+        for $500,000. Then, the writer goes to their house and reads the wife's works so that she can pick up where the wife's 
+        books left off. Then, the writer reads the wife's autobiography and things take a very dark turn.
+      </p>
+      <p class="para">
+        Plot: The plot was pretty dark later in the book, which I was okay with because it made the plot twist and mindfuck at the end 
+        that much more mindfucky. I liked the suspense, and this was one of those books where I literally couldn't put it down.
+        I liked how she used suspense, mystery, and sexual tension to carry the plot because it made the book very enjoyable to read.
+        The romance also developed pretty nicely, but it got repetitive after a while. Just a warning though — there's a fair amound of 
+        sex scenes, which get pretty spicy. But the last plot twist was crazy, I can't stress this enough! It questions the truth and after 
+        reading the story, you don't know what to believe anymore. I can't even say there's an happy ending because everything is so ambiguous.
+      </p>  
+      <h2 style="text-align: center;">WARNING: CONTAINS SPOILERS!</h2>
+      <button class="spoiler" onclick='spoiler()'>Spoiler</button>
+      <div id="spoilers">
+        <p class="para">Okay... so here's the real question. Team Manuscript or Team Letter? Personally, I'm Team Manuscript, because it seems
+        awfully sick to write all that stuff with strikingly accurate details. For her to write that letter seemed like a cover up, and there was 
+        no way that she was totally innocent. Plus, if the letter were true, the ending wouldn't have been happy, and I like happy endings. Therefore 
+        I will be in denial and be on #teammanuscript.</p>
+        <p class="para">Definitely one of my favorite books! I especially liked the thriller and romance 
+        combo, and you cannot go wrong for choosing this book to read!</p>
+      </div>   
+    </div>
+    <script>
+      function spoiler() {
+        document.getElementById("spoilers").style.display="block";
+      }
+    </script>
   </body>
 </html>
