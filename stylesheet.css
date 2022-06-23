@@ -59,14 +59,15 @@ a:hover, a:active {
   top: 0;
   left: 0;
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .header {
     flex-direction: column;
     row-gap: 15px;
   }
   .homeHeader {
-    display: none;
-
+    flex-direction: column;
+    row-gap: 15px;
+    opacity: 1;
   }
   p.para {
     padding-left: 0;  
@@ -77,8 +78,22 @@ a:hover, a:active {
     background-size: contain;
     margin:0%
   }
+  #nycTrain {
+    max-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    margin-top: 15%;
+  }
+  #hometitle {
+    margin-top: 25%;
+    transform: translate(-25%);
+  }
+  .dropdown {
+    margin-top: 10%;
+    transform:translate(-10%);
+  }
 }
-@media (min-width: 801px) {
+@media screen and (min-width: 801px) {
   p.para {
     padding-left: 25%;    
     width: 50%;
