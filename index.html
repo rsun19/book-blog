@@ -15,7 +15,14 @@
     </script>
   </head>
   <body>
-    <video autoplay muted loop id="nycTrain">
+    <style>
+      @media screen and (max-width: 800px) {
+        body {
+          background: gray;
+        }
+      }
+    </style>
+    <video autoplay muted playsinline loop id="nycTrain">
       <source src="subway.mp4" type="video/mp4">
     </video>  
     <nav>
