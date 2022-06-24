@@ -119,6 +119,13 @@ a:hover, a:active {
     font-size: 13px;
     padding: 10px;
   }
+  #nycTrain {
+    max-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    margin-top: 25%;
+    object-fit: fill;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -144,6 +151,13 @@ a:hover, a:active {
   .dropdownContent a {
     font-size: 13px;
     padding: 8px;
+  }
+  #nycTrain {
+    max-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    margin-top: 25%;
+    object-fit: fill;
   }
 }
 
