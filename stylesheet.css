@@ -292,3 +292,23 @@ p.para {
 #spoilers {
   display: none;
 }
+
+#tables {
+  width: 33%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  float:right;
+  justify-content: flex-end;
+}
+
+#readingList {
+  width: 33%;
+}
+
+#rankedList {
+  float: right;
+  width: 33%;
+  margin-top: 10px;
+}
